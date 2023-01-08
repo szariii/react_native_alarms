@@ -15,7 +15,7 @@ const Main = ({ navigation }) => {
 
   const downloadFont = async () => {
     await Font.loadAsync({
-      myfont: require("../fonts/freedom.ttf"), // Uwaga: proszę w nazwie fonta nie używać dużych liter
+      myfont: require("../assets/fonts/freedom.ttf"), // Uwaga: proszę w nazwie fonta nie używać dużych liter
     });
     setFontloaded(true);
   };

@@ -52,7 +52,7 @@ TaskManager.defineTask(BACKGROUND_FETCH_TASK, async () => {
 });
 
 const bgMusic = async () => {
-  await Audio.Sound.createAsync(require("../audio/alarm.mp3"));
+  await Audio.Sound.createAsync(require("../assets/audio/alarm.mp3"));
 };
 
 async function registerBackgroundFetchAsync() {
@@ -154,7 +154,7 @@ const AlarmList = ({ navigation }) => {
     if (playInfo.isPlaying === false || playInfo.isLoaded === false) {
       if (playInfo.isLoaded === false) {
         const { sound: playbackObject } = await Audio.Sound.createAsync(
-          require("../audio/alarm.mp3")
+          require("../assets/audio/alarm.mp3")
         );
         soundRef.current = playbackObject;
       }
