@@ -31,6 +31,6 @@
 </ol>
 
 <h2>Screenshots</h2>
-<img src="./img/github/img1.jpg" alt="img1" width="50%">
-<img src="./img/github/img2.jpg" alt="img2">
-<img src="./img/github/img3.jpg" alt="img3">
+<img src="./img/github/img1.jpg" alt="img1" width="30%">
+<img src="./img/github/img2.jpg" alt="img2" width="30%">
+<img src="./img/github/img3.jpg" alt="img3" width="30%">
