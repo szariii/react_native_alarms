@@ -29,3 +29,8 @@
     <li>Install expo app on phone</li>
   <li>Scan QRCode which should show in cmd</li>
 </ol>
+
+<h2>Screenshots</h2>
+<img src="./img/github/img1.jpg" alt="img1">
+<img src="./img/github/img2.jpg" alt="img2">
+<img src="./img/github/img3.jpg" alt="img3">
